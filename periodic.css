@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+    font-size: 70px;
+    color: white;
+    animation:flicker 1.56 infinite alternate;
+}
+td{
+    color: white;
+    text-align: center;
+    width: 5vw; /* pixel(px) = (viewport width unit (vw) * viewport width)/100*/
+    border: 1px solid white;
+    font-weight: 700;
+    size: 12px;
+}
+.none{
+    border: none;
+}
+.color1{
+    background-color: rgb(215,227,125);
+}
+.color2{
+    background-color: rgb(98, 102, 102);
+}
+.color3{
+    background-color: rgb(255,101,101);
+}
+.color4{
+    background-color: rgb(254,222,173);
+}
+.color5{
+    background-color: rgb(238, 131, 129);
+}
+.color6{
+    background-color: rgb(204,203,147);
+}
+.color7{
+    background-color: rgb(212, 223, 142);
+}
+.color8{
+    background-color:rgb(128, 128, 109);
+}
+.color9{
+    background-color:rgb(205,205,205);
+}
+.color10{
+    background-color:rgb(255,187,255);
+}
+.color11{
+    background-color:rgb(255,157,209);
+}
+.color12{
+    background-color:rgb(248, 208, 179);
+}
+.color13{
+    background-color:rgb(255,191,252);
+}
+.color14{
+    background-color:rgb(246,160,207);
+}
+td:hover{
+    filter:brightness(200%);
+}
